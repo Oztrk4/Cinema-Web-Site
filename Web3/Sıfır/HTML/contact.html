@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../JS/contact.js"></script>
+    <link rel="icon" href="../images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="../images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="campaign.html">Campaign</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </header>
+    <div class="contact">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96240.
+          78196455553!2d28.883684716080683!3d41.07938680048125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+          1s0x14cab728fc42dd33%3A0x17d213078fb809f4!2zTmnFn2FudGHFn8SxIMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1705598695837!5m2!1str!2str"
+          width="50%"
+          height="450"
+          style="border: 0; border-radius: 9rem"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="info">
+        <h2>INFORMATION</h2>
+        <h4>Phone : (212) 210 10 10</h4>
+        <h4>E-Mail : canersinan@live.com</h4>
+        <h4>
+          Address : Maslak Mahallesi, Taşyoncası Sokak, <br />
+          No: 1V ve No:1Y Bina Kodu: 34481742, 34398 Sarıyer/İstanbul
+        </h4>
+        <h4>Fax : (212) 565 25 25</h4>
+      </div>
+      <div class="form" id="form">
+        <h1>GET IN TOUCH</h1>
+        <form class="contact-form" name="myForm" onsubmit="return validate()">
+          <div class="form-group">
+            <input type="text" name="Name" placeholder="Name" />
+          </div>
+          <div class="form-group">
+            <input type="text" name="Email" placeholder="E-Mail" />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="Phone" placeholder="Phone" />
+          </div>
+          <div class="form-group">
+            <textarea
+              name="Message"
+              id="message"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <a href="#">
+            <button class="btn">Gönder</button>
+          </a>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="box-container">
+        <div class="box">
+          <h3>
+            Created by Ulaş Caner Sinan | <span>All Rights Reserved</span>
+          </h3>
+        </div>
+        <div class="social">
+          <a
+            href="https://tr-tr.facebook.com/nisantasiedu/"
+            target="_blank"
+            class="fa-brands fa-facebook-f"
+          ></a>
+          <a
+            href="http://instagram.com/caner.sinann/"
+            target="_blank"
+            class="fa-brands fa-instagram"
+          ></a>
+          <a
+            href="https://twitter.com/CanerSinan00"
+            target="_blank"
+            class="fa-brands fa-twitter"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/laş-caner-sinan-782315261/"
+            target="_blank"
+            class="fab fa-linkedin"
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
